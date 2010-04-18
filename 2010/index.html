@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>UI Morphing</title>
+		<link rel="stylesheet" type="text/css" href="/resources/css/ext-all.css" />
+		<script src="/adapter/ext/ext-base.js"></script>
+		<script src="/ext-all.js"></script>
+		<script src="overrides.js"></script>
+		<script src="app-a.js"></script>
+	</head>
+	<body>
+		<textarea id="viewtpl" style="visibility: hidden;display:none;"><tpl for="."><div style="font-size: 14px;font-family:arial,tahoma,helvetica,sans-serif;"><tpl for="data"><div style="width: 120px; text-align: right; float: left;margin-right: 4px;">{label}:</div><div style="float:left;">{value}</div><br/></tpl></div><div style="clear: both;"/></tpl></textarea>
+	</body>
+</html>
